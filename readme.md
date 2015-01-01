@@ -24,6 +24,7 @@ Flexbox (CSS)
 - Very simple and clean CSS
 - Allows for a variable-height footer
 - No flash of unstyled content (FoUC)
+
 ### Cons
 - Doesn't work in IE versions 9 and older
 - Requires special flexbox syntax for IE10
@@ -33,6 +34,7 @@ Absolute Positioning (CSS)
 ### Pros
 - Works in older browsers
 - No FoUC
+
 ### Cons
 - Complex CSS
 - Requires a fixed-height footer
@@ -44,6 +46,7 @@ jQuery (JS)
 ### Pros
 - Works with older browsers
 - Doesn't require complex CSS
+
 ### Cons
 - Complex JS
 - Footer position completely depends on HTML structure

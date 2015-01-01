@@ -1,0 +1,13 @@
+## Project Files ##
+/~res
+
+## Grunt ##
+/node_modules
+/temp
+
+## Misc ##
+.DS_Store
+[Tt]humbs.db
+*.dmp
+._*
+npm-debug.log

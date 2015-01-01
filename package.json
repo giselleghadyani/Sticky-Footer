@@ -1,16 +1,17 @@
 {
-  "name": "Blog",
+  "name": "Sticky-Footer",
   "version": "0.0.0",
-  "description": "Katie's blog.",
+  "description": "Testing out how to do sticky footer in multiple ways",
   "main": "web/index.html",
   "scripts": {
     "postinstall": "",
     "prestart": "npm install",
-    "start": "",
+    "start": "grunt",
     "pretest": "npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "grunt-cli": "^0.1.13",
     "grunt": "^0.4.5",
     "grunt-connect-rewrite": "^0.2.1",
     "grunt-contrib-connect": "~0.8.0",
@@ -19,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@bitbucket.org:Saturn2888/katie-angular-test.git"
+    "url": "git@bitbucket.org:asdf.git"
   },
   "author": "",
   "license": "BSD",

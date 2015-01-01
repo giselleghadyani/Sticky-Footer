@@ -1,0 +1,68 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.global-site-header {
+	min-height: 250px;
+	background-color: red;
+}
+
+.global-site-main {
+	background-color: green;
+}
+
+.global-site-footer {
+	background-color: blue;
+}
+
+
+.fxb {
+	display: flex;
+	height: auto;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.fxb-site-main {
+	flex: 1;
+}
+
+
+.abs-container {
+	position: relative;
+	min-height: 100%;
+}
+
+.abs {
+	margin: 0 0 150px; /* bottom = footer height */
+	background-color: green; /* = main bgc */
+}
+
+.abs-site-header,
+.abs-site-footer {
+	overflow: hidden;
+}
+
+.abs-site-main {
+	height: 100%;
+}
+
+.abs-site-footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 150px;
+}
+
+
+.jqy-site-header,
+.jqy-site-main,
+.jqy-site-footer {
+	overflow: hidden;
+}

@@ -11,14 +11,9 @@ module.exports = (grunt) ->
 		options:
 			debug: true
 			keepalive: true
-			hostname: 'lol.blog.com'
+			hostname: 'lol.stickyfooter.com'
 			port: 80
 			base: 'web/'
-
-		rules: [
-			from: '/[^\.]+$'
-			to: "/index.html"
-		]
 
 		main:
 			options:

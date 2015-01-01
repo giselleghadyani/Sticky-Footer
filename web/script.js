@@ -40,4 +40,8 @@ $(document).ready(function() {
 	};
 
 	stickyFooter();
+
+	$(window).resize(function() {
+		stickyFooter();
+	})
 });

@@ -4,6 +4,7 @@ Showcases 3 ways to do a **sticky footer**. Each HTML file is the same as the ot
 
 Project setup
 ---
+1. Install Node.js
 1. Create host file entry for `lol.stickyfooter.com`.
 1. In the root of the project run `npm start`.
 

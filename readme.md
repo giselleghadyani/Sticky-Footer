@@ -2,6 +2,11 @@ Sticky Footer
 ===
 Showcases 3 ways to do a **sticky footer**. Each HTML file is the same as the others but the CSS classes are namespaced differently.
 
+Project setup
+---
+1. Create host file entry for `lol.stickyfooter.com`.
+1. In the root of the project run `npm start`.
+
 What is a Sticky Footer?
 ---
 One of the things you'll probably run across in web development is having to put the footer at the bottom of the window even though the height of the content does not fill the window vertically.
